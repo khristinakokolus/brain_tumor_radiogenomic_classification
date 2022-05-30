@@ -24,6 +24,7 @@ This curve plots two parameters:
 - True Positive Rate
 - False Positive Rate
 
+----
 
 ## True Positive Rate (TPR)
 True Positive Rate (TPR) is a synonym for recall and is therefore defined as follows
@@ -39,17 +40,18 @@ True Positive Rate (TPR) is a synonym for recall and is therefore defined as fol
 ## Resulting Aggregated Metric 
 
 <img width="768" alt="image" src="https://user-images.githubusercontent.com/25413268/171038007-4ddc426b-c403-4456-b5f1-384d6b046c14.png">
-<img width="768" alt="image" src="https://user-images.githubusercontent.com/25413268/171038039-19281a9a-e73e-4d27-9aaa-c771f63e2b4c.png">
+<img width="768" alt="image" src="https://user-images.githubusercontent.com/25413268/171052905-391e3223-78ef-4bc3-9ef3-61f4cee264ef.png">
 
 
 
 
 # ML vs DL
 
-The 3D CNN preserve temporal information and propagate it through the layers of the network. The tensor zi is in this case 4D and has size Ni × D × Hi × Wi, where Ni is the number of filters used in the i-th block. Each filter is 4-dimensional and it has size Ni−1 × t × d × d where t denotes the temporal extent of the filter. The filters are convolved in 3D, over space dimension
+The 3D CNN preserve temporal information and propagate it through the layers of the network. The tensor xi in this case is 4D and has size Ni × D × H × W, where Ni is the number of filters used in the i-th block. Each filter is 4-dimensional and it has size Ni−1 × t × d × d where t denotes the temporal extent of the filter. The filters are convolved in 3D, over space dimension
 
 Where in the 2D case this informations is lost
 
+----
 
 The compared results for the [Baseline] Regression Classifier and 3D ResNet are prominent. The 3D ResNet's performance is much better for evry single scan type
 
