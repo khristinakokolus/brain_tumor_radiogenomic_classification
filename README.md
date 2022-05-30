@@ -25,7 +25,7 @@ This curve plots two parameters:
 - False Positive Rate
 
 
-## True Positive Rate
+## True Positive Rate (TPR)
 True Positive Rate (TPR) is a synonym for recall and is therefore defined as follows
 (proportion of samples that were correctly classified)
 
