@@ -2,17 +2,26 @@
 
 Welcome to **Brain Tumor Radiogenomic Classification** project!
 
-## Contributors
+[Train model](https://www.kaggle.com/code/slavkoprytula/3d-resnet-train) or
+[Use pretrained models](https://www.kaggle.com/datasets/slavkoprytula/rsnabraintumorclassificationmodels)
+
+# Contributors
 [Khrystyna Kokolus](https://github.com/khristinakokolus)
 
 [Yaroslav Prytula](https://github.com/SlavkoPrytula)
 
-## Description
+# Description
 
-This project aims to predict the percent of MGMT factor in brain MRI.
+The aim of this project is to determine the presence of MGMT factor, which causes the formation of glioblastoma, by MRI scan. This can help in the early stages of a medical examination.
 
 
+# Pipeline
 
+<img width="330" alt="Screenshot 2022-05-31 at 06 46 38" src="https://user-images.githubusercontent.com/60686300/171088953-73f27acb-edae-4ce1-953b-a32b317cc748.png">
+
+# CNN model view
+
+<img width="554" alt="Screenshot 2022-05-31 at 06 49 10" src="https://user-images.githubusercontent.com/60686300/171089085-22c8251a-c13b-4188-ade7-b95f6ab6668e.png">
 
 # Evaluation
 
